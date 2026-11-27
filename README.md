@@ -468,11 +468,11 @@ print(engine.get_article_names(ids))
 ## Project Structure
 
 ```
-ibm-recommendation-system/
+watson-content-based-recsys/
 │
-├── Recommendations_with_IBM_completed.ipynb   # Main notebook (all 6 parts)
-├── README.md                                   # This file
-├── IBM_Recommendation_System_Report.docx       # Full project report
+├── Recommendations_with_IBM.ipynb/html      # Main notebook (all 6 parts)
+├── README.md                                      # This file
+├── IBM_Recommendation_System_Report.pdf           # Full project report
 │
 ├── data/
 │   └── user-item-interactions.csv                 # Raw interaction dataset
@@ -536,6 +536,8 @@ Key hyperparameters and their selection rationale:
 | Min interactions (eval) | 5 | Ensure meaningful leave-one-out signal |
 
 ---
+
+A full write-up of the methodology, results framing, business value, and limitations is available in [Watson Content Discovery Recsys Report](./IBM_Recommendation_System_Report.pdf)
 
 ## Dependencies
 
